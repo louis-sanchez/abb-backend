@@ -1,6 +1,5 @@
 class ControlFactory {
     createRandomControl() {
-
         const controls = ['position', 'diameter', 'length'];
         const random = Math.floor(Math.random() * controls.length);
         const randomControl = controls[random]
