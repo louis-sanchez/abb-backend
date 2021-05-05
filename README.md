@@ -5,6 +5,7 @@ A basic backend that constantly feeds randomized parts to the frontend via WebSo
 ## Run
 
 ```
+npm install
 npm start
 ```
 
