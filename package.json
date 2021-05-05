@@ -1,11 +1,11 @@
 {
-  "name": "abb-fullstack-assignment",
+  "name": "abb-backend",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "test",
-    "start": "node index.js"
+    "start": "node server.js"
   },
   "author": "Louis Sanchez (https://github.com/louis-sanchez)",
   "license": "ISC",
