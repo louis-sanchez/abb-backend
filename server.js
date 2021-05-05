@@ -3,5 +3,9 @@ const { Server } = require('ws')
 const wss = new Server({ port: 3000 })
 
 wss.on('connection', function connection(ws) {
-    setInterval(() => ws.send(JSON.stringify(PartFactory.createRandomPart())), 2000)
+    setInterval(() => { 
+        const part = JSON.stringify(PartFactory.createRandomPart())
+        console.log(part)
+        ws.send(part)
+    }, 2000)
 })
