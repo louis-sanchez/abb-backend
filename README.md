@@ -2,7 +2,7 @@
 
 A basic backend that constantly feeds randomized parts to the frontend via WebSockets 
 
-## Run
+## Run (then run front-end to start app logic)
 
 ```
 npm install
